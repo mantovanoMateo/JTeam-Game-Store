@@ -1,0 +1,125 @@
+package Model.Clases;
+
+import java.io.Serializable;
+import java.util.Objects;
+
+public class Juego implements Comparable<Juego>, Serializable {
+    private String nombre;
+    private String categoria;
+    private Double precio;
+    private Double valoracion;
+    private Integer cantValoraciones;
+    private Boolean activo;
+    private String rutaVideo;
+
+    private static Integer ID=0;
+    private Integer idJuego;
+
+    public Juego() {
+        this.valoracion=5.0;
+        this.cantValoraciones=0;
+        this.activo=true;
+        this.idJuego=ID;
+        ID++;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public String getCategoria() {
+        return categoria;
+    }
+
+    public void setCategoria(String categoria) {
+        this.categoria = categoria;
+    }
+
+    public Double getPrecio() {
+        return precio;
+    }
+
+    public void setPrecio(Double precio) {
+        this.precio = precio;
+    }
+
+    public Double getValoracion() {
+        return valoracion;
+    }
+
+    public void setValoracion(Double valoracion) {
+        this.valoracion = valoracion;
+    }
+
+    public Integer getCantValoraciones() {
+        return cantValoraciones;
+    }
+
+    public void setCantValoraciones(Integer cantValoraciones) {
+        this.cantValoraciones = cantValoraciones;
+    }
+
+    public Boolean getActivo() {
+        return activo;
+    }
+
+    public void setActivo(Boolean activo) {
+        this.activo = activo;
+    }
+
+    public Integer getIdJuego() {
+        return idJuego;
+    }
+
+    public void setIdJuego(Integer idJuego) {
+        this.idJuego = idJuego;
+    }
+
+    public String getRutaVideo() {
+        return rutaVideo;
+    }
+
+    public void setRutaVideo(String rutaVideo) {
+        this.rutaVideo = rutaVideo;
+    }
+
+    @Override
+    public String toString() {
+        return "Juego{" +
+                "nombre='" + nombre + '\'' +
+                ", categoria='" + categoria + '\'' +
+                ", precio=" + precio +
+                ", valoracion=" + valoracion +
+                ", cantValoraciones=" + cantValoraciones +
+                ", activo=" + activo +
+                '}';
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Juego juego = (Juego) o;
+        return Objects.equals(nombre, juego.nombre) && Objects.equals(categoria, juego.categoria);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(nombre, categoria);
+    }
+
+    @Override
+    public int compareTo(Juego o) {
+        if (this.getValoracion()>o.valoracion){
+            return -1;
+        }else if(this.getValoracion()<o.valoracion){
+            return 1;
+        }else{
+            return 0;
+        }
+    }
+}

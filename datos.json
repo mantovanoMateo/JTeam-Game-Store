@@ -1,0 +1,961 @@
+{
+  "juegos" : [ {
+    "nombre" : "Grand Theft Auto",
+    "categoria" : "ACCION",
+    "precio" : 500.0,
+    "valoracion" : 5.0,
+    "cantValoraciones" : 0,
+    "activo" : true,
+    "rutaVideo" : "https://www.youtube.com/watch_popup?v=QkkoHAzjnUs&ab_channel=RockstarGames",
+    "idJuego" : 4
+  }, {
+    "nombre" : "Red Dead Redemption 2",
+    "categoria" : "ACCION",
+    "precio" : 475.0,
+    "valoracion" : 5.0,
+    "cantValoraciones" : 0,
+    "activo" : true,
+    "rutaVideo" : "https://www.youtube.com/watch_popup?v=eaW0tYpxyp0&t=3s&ab_channel=RockstarGames",
+    "idJuego" : 7
+  }, {
+    "nombre" : "Metal Gear Solid",
+    "categoria" : "ACCION",
+    "precio" : 675.0,
+    "valoracion" : 5.0,
+    "cantValoraciones" : 0,
+    "activo" : true,
+    "rutaVideo" : "https://www.youtube.com/watch_popup?v=RhseWPWYPBA&ab_channel=KONAMI%E5%85%AC%E5%BC%8F",
+    "idJuego" : 10
+  }, {
+    "nombre" : "Halo",
+    "categoria" : "ACCION",
+    "precio" : 475.0,
+    "valoracion" : 5.0,
+    "cantValoraciones" : 0,
+    "activo" : true,
+    "rutaVideo" : "https://www.youtube.com/watch_popup?v=zM4sLMw_IMw&ab_channel=XboxEspa%C3%B1a",
+    "idJuego" : 13
+  }, {
+    "nombre" : "Battlefield",
+    "categoria" : "ACCION",
+    "precio" : 715.0,
+    "valoracion" : 5.0,
+    "cantValoraciones" : 0,
+    "activo" : true,
+    "rutaVideo" : "https://www.youtube.com/watch_popup?v=c7nRTF2SowQ&ab_channel=Battlefield",
+    "idJuego" : 21
+  }, {
+    "nombre" : "Overwatch",
+    "categoria" : "ACCION",
+    "precio" : 430.0,
+    "valoracion" : 5.0,
+    "cantValoraciones" : 0,
+    "activo" : true,
+    "rutaVideo" : "https://www.youtube.com/watch_popup?v=dushZybUYnM&ab_channel=PlayOverwatch",
+    "idJuego" : 23
+  }, {
+    "nombre" : "Apex",
+    "categoria" : "ACCION",
+    "precio" : 546.0,
+    "valoracion" : 5.0,
+    "cantValoraciones" : 0,
+    "activo" : true,
+    "rutaVideo" : "https://www.youtube.com/watch_popup?v=3D4sYCf1VPI&ab_channel=ApexLegends",
+    "idJuego" : 26
+  }, {
+    "nombre" : "Resident Evil",
+    "categoria" : "ACCION",
+    "precio" : 649.0,
+    "valoracion" : 5.0,
+    "cantValoraciones" : 0,
+    "activo" : true,
+    "rutaVideo" : "https://www.youtube.com/watch_popup?v=u3wS-Q2KBpk&ab_channel=PlayStationEurope",
+    "idJuego" : 28
+  }, {
+    "nombre" : "TitanFall",
+    "categoria" : "ACCION",
+    "precio" : 589.0,
+    "valoracion" : 5.0,
+    "cantValoraciones" : 0,
+    "activo" : true,
+    "rutaVideo" : "https://www.youtube.com/watch_popup?v=ktw2k3m7Qko&ab_channel=GameSpot",
+    "idJuego" : 30
+  }, {
+    "nombre" : "FarCry",
+    "categoria" : "ACCION",
+    "precio" : 450.0,
+    "valoracion" : 5.0,
+    "cantValoraciones" : 0,
+    "activo" : true,
+    "rutaVideo" : "https://www.youtube.com/watch_popup?v=J6gnOVJsCsM&ab_channel=Ubisoft",
+    "idJuego" : 32
+  }, {
+    "nombre" : "Teenage Mutant Ninja Turtles",
+    "categoria" : "ACCION",
+    "precio" : 350.0,
+    "valoracion" : 5.0,
+    "cantValoraciones" : 0,
+    "activo" : true,
+    "rutaVideo" : "https://www.youtube.com/watch_popup?v=5qcaEQVBcY0&ab_channel=Netflix",
+    "idJuego" : 34
+  }, {
+    "nombre" : "Gears of War",
+    "categoria" : "ACCION",
+    "precio" : 540.0,
+    "valoracion" : 5.0,
+    "cantValoraciones" : 0,
+    "activo" : true,
+    "rutaVideo" : "https://www.youtube.com/watch_popup?v=JUnpLYE_ei8&ab_channel=GameNews",
+    "idJuego" : 39
+  }, {
+    "nombre" : "HotLine Miami",
+    "categoria" : "ACCION",
+    "precio" : 375.0,
+    "valoracion" : 5.0,
+    "cantValoraciones" : 0,
+    "activo" : true,
+    "rutaVideo" : "https://www.youtube.com/watch_popup?v=2n_BinoS1Ug&ab_channel=brumisator",
+    "idJuego" : 41
+  }, {
+    "nombre" : "HalfLife",
+    "categoria" : "AVENTURA",
+    "precio" : 480.0,
+    "valoracion" : 5.0,
+    "cantValoraciones" : 0,
+    "activo" : true,
+    "rutaVideo" : "https://www.youtube.com/watch_popup?v=wtIp8jOo8_o&ab_channel=JamesBenson",
+    "idJuego" : 45
+  }, {
+    "nombre" : "God of War",
+    "categoria" : "AVENTURA",
+    "precio" : 700.0,
+    "valoracion" : 5.0,
+    "cantValoraciones" : 0,
+    "activo" : true,
+    "rutaVideo" : "https://www.youtube.com/watch_popup?v=vtFhDrMIZjE&ab_channel=PlayStationLatinoam%C3%A9rica",
+    "idJuego" : 47
+  }, {
+    "nombre" : "Minecraft",
+    "categoria" : "AVENTURA",
+    "precio" : 375.0,
+    "valoracion" : 5.0,
+    "cantValoraciones" : 0,
+    "activo" : true,
+    "rutaVideo" : "https://www.youtube.com/watch_popup?v=MmB9b5njVbA&ab_channel=Minecraft",
+    "idJuego" : 50
+  }, {
+    "nombre" : "Subnautica",
+    "categoria" : "AVENTURA",
+    "precio" : 450.0,
+    "valoracion" : 5.0,
+    "cantValoraciones" : 0,
+    "activo" : true,
+    "rutaVideo" : "https://www.youtube.com/watch_popup?v=Rz2SNm8VguE&ab_channel=Subnautica",
+    "idJuego" : 52
+  }, {
+    "nombre" : "Death Stranding",
+    "categoria" : "AVENTURA",
+    "precio" : 629.0,
+    "valoracion" : 5.0,
+    "cantValoraciones" : 0,
+    "activo" : true,
+    "rutaVideo" : "https://www.youtube.com/watch_popup?v=2nj9Ub32ILs&ab_channel=PlayStationEspa%C3%B1a",
+    "idJuego" : 25
+  }, {
+    "nombre" : "Stranded deep",
+    "categoria" : "AVENTURA",
+    "precio" : 489.0,
+    "valoracion" : 5.0,
+    "cantValoraciones" : 0,
+    "activo" : true,
+    "rutaVideo" : "https://www.youtube.com/watch_popup?v=E9_iyrd8EsA&ab_channel=PlayStation",
+    "idJuego" : 27
+  }, {
+    "nombre" : "Tomb Raider",
+    "categoria" : "AVENTURA",
+    "precio" : 743.0,
+    "valoracion" : 5.0,
+    "cantValoraciones" : 0,
+    "activo" : true,
+    "rutaVideo" : "https://www.youtube.com/watch_popup?v=zF9m91y8Na0&ab_channel=PlayStation",
+    "idJuego" : 29
+  }, {
+    "nombre" : "Detroit become human",
+    "categoria" : "AVENTURA",
+    "precio" : 489.0,
+    "valoracion" : 5.0,
+    "cantValoraciones" : 0,
+    "activo" : true,
+    "rutaVideo" : "https://www.youtube.com/watch_popup?v=QD1pbWCJcKQ&ab_channel=PlayStation",
+    "idJuego" : 31
+  }, {
+    "nombre" : "The forest",
+    "categoria" : "AVENTURA",
+    "precio" : 393.0,
+    "valoracion" : 5.0,
+    "cantValoraciones" : 0,
+    "activo" : true,
+    "rutaVideo" : "https://www.youtube.com/watch_popup?v=8KXfxHujIAA&ab_channel=PlayStation",
+    "idJuego" : 33
+  }, {
+    "nombre" : "Life is strange",
+    "categoria" : "AVENTURA",
+    "precio" : 573.0,
+    "valoracion" : 5.0,
+    "cantValoraciones" : 0,
+    "activo" : true,
+    "rutaVideo" : "https://www.youtube.com/watch_popup?v=TI3AMPKEPmQ&ab_channel=PlayStation",
+    "idJuego" : 35
+  }, {
+    "nombre" : "Star Wars",
+    "categoria" : "AVENTURA",
+    "precio" : 568.0,
+    "valoracion" : 5.0,
+    "cantValoraciones" : 0,
+    "activo" : true,
+    "rutaVideo" : "https://www.youtube.com/watch_popup?v=9ulsvAx-E2I&ab_channel=PlayStationEspa%C3%B1a",
+    "idJuego" : 37
+  }, {
+    "nombre" : "Assasins Creed Black Flag",
+    "categoria" : "AVENTURA",
+    "precio" : 678.0,
+    "valoracion" : 5.0,
+    "cantValoraciones" : 0,
+    "activo" : true,
+    "rutaVideo" : "https://www.youtube.com/watch_popup?v=WFxjmpsNzJc&ab_channel=Assassin%27sCreedES",
+    "idJuego" : 39
+  }, {
+    "nombre" : "Skyrim",
+    "categoria" : "DE ROL",
+    "precio" : 890.0,
+    "valoracion" : 5.0,
+    "cantValoraciones" : 0,
+    "activo" : true,
+    "rutaVideo" : "https://www.youtube.com/watch_popup?v=JSRtYpNRoN0&ab_channel=BethesdaSoftworks",
+    "idJuego" : 41
+  }, {
+    "nombre" : "Elden Ring",
+    "categoria" : "DE ROL",
+    "precio" : 432.0,
+    "valoracion" : 5.0,
+    "cantValoraciones" : 0,
+    "activo" : true,
+    "rutaVideo" : "https://www.youtube.com/watch_popup?v=E3Huy2cdih0&ab_channel=BANDAINAMCOEurope",
+    "idJuego" : 43
+  }, {
+    "nombre" : "Dbz Budokai tenkaichi 3",
+    "categoria" : "ACCION",
+    "precio" : 365.0,
+    "valoracion" : 5.0,
+    "cantValoraciones" : 0,
+    "activo" : true,
+    "rutaVideo" : "https://www.youtube.com/watch_popup?v=55KGua5iW0E&ab_channel=ShikasClouds",
+    "idJuego" : 45
+  }, {
+    "nombre" : "Undertale",
+    "categoria" : "DE ROL",
+    "precio" : 476.0,
+    "valoracion" : 5.0,
+    "cantValoraciones" : 0,
+    "activo" : true,
+    "rutaVideo" : "https://www.youtube.com/watch_popup?v=cph6XMXRKzY&ab_channel=PlayStation",
+    "idJuego" : 48
+  }, {
+    "nombre" : "Dark Souls",
+    "categoria" : "DE ROL",
+    "precio" : 502.0,
+    "valoracion" : 5.0,
+    "cantValoraciones" : 0,
+    "activo" : true,
+    "rutaVideo" : "https://www.youtube.com/watch_popup?v=Woe0PYZPxRw&ab_channel=PlayStation",
+    "idJuego" : 50
+  }, {
+    "nombre" : "South Park: The Stick of Thruth",
+    "categoria" : "DE ROL",
+    "precio" : 789.0,
+    "valoracion" : 5.0,
+    "cantValoraciones" : 0,
+    "activo" : true,
+    "rutaVideo" : "https://www.youtube.com/watch_popup?v=bJjFeNCHjcw&ab_channel=Ubisoft",
+    "idJuego" : 52
+  }, {
+    "nombre" : "Sekiro",
+    "categoria" : "DE ROL",
+    "precio" : 632.0,
+    "valoracion" : 5.0,
+    "cantValoraciones" : 0,
+    "activo" : true,
+    "rutaVideo" : "https://www.youtube.com/watch_popup?v=rXMX4YJ7Lks&ab_channel=PlayStation",
+    "idJuego" : 54
+  }, {
+    "nombre" : "Hades",
+    "categoria" : "DE ROL",
+    "precio" : 652.0,
+    "valoracion" : 5.0,
+    "cantValoraciones" : 0,
+    "activo" : true,
+    "rutaVideo" : "https://www.youtube.com/watch_popup?v=91t0ha9x0AE&ab_channel=IGN",
+    "idJuego" : 56
+  }, {
+    "nombre" : "Final Fantasy",
+    "categoria" : "DE ROL",
+    "precio" : 777.0,
+    "valoracion" : 5.0,
+    "cantValoraciones" : 0,
+    "activo" : true,
+    "rutaVideo" : "https://www.youtube.com/watch_popup?v=27-bTGm4aYo&ab_channel=PlayStationLatinoam%C3%A9rica",
+    "idJuego" : 58
+  }, {
+    "nombre" : "World of Warcraft",
+    "categoria" : "DE ROL",
+    "precio" : 421.0,
+    "valoracion" : 5.0,
+    "cantValoraciones" : 0,
+    "activo" : true,
+    "rutaVideo" : "https://www.youtube.com/watch_popup?v=W_0AzVqIEMo&ab_channel=WorldofWarcraftLatAm",
+    "idJuego" : 60
+  }, {
+    "nombre" : "Stardew Valley",
+    "categoria" : "DE ROL",
+    "precio" : 441.0,
+    "valoracion" : 5.0,
+    "cantValoraciones" : 0,
+    "activo" : true,
+    "rutaVideo" : "https://www.youtube.com/watch_popup?v=8A7A1X1TVNc&ab_channel=PlayStation",
+    "idJuego" : 62
+  }, {
+    "nombre" : "Diablo",
+    "categoria" : "DE ROL",
+    "precio" : 629.0,
+    "valoracion" : 5.0,
+    "cantValoraciones" : 0,
+    "activo" : true,
+    "rutaVideo" : "https://www.youtube.com/watch_popup?v=88HP1EC6U_s&ab_channel=DiabloES",
+    "idJuego" : 64
+  }, {
+    "nombre" : "CyberPunk 2077",
+    "categoria" : "DE ROL",
+    "precio" : 782.0,
+    "valoracion" : 5.0,
+    "cantValoraciones" : 0,
+    "activo" : true,
+    "rutaVideo" : "https://www.youtube.com/watch_popup?v=reABCMNGM3w&ab_channel=Cyberpunk2077",
+    "idJuego" : 66
+  }, {
+    "nombre" : "Nioh",
+    "categoria" : "DE ROL",
+    "precio" : 472.0,
+    "valoracion" : 5.0,
+    "cantValoraciones" : 0,
+    "activo" : true,
+    "rutaVideo" : "https://www.youtube.com/watch_popup?v=WsXnJUP99jc&ab_channel=PlayStationEurope",
+    "idJuego" : 68
+  }, {
+    "nombre" : "Rocket League",
+    "categoria" : "DEPORTES",
+    "precio" : 342.0,
+    "valoracion" : 5.0,
+    "cantValoraciones" : 0,
+    "activo" : true,
+    "rutaVideo" : "https://www.youtube.com/watch?v=OSZi1duGpIQ&ab_channel=RocketLeague",
+    "idJuego" : 47
+  }, {
+    "nombre" : "Fifa 23",
+    "categoria" : "DEPORTES",
+    "precio" : 497.0,
+    "valoracion" : 5.0,
+    "cantValoraciones" : 0,
+    "activo" : true,
+    "rutaVideo" : "https://www.youtube.com/watch_popup?v=zMyeAFzCTM0&ab_channel=PlayStationLatinoam%C3%A9rica",
+    "idJuego" : 49
+  }, {
+    "nombre" : "pes 23",
+    "categoria" : "DEPORTES",
+    "precio" : 743.0,
+    "valoracion" : 5.0,
+    "cantValoraciones" : 0,
+    "activo" : true,
+    "rutaVideo" : "https://www.youtube.com/watch?v=27Fa0aH2Pgg&ab_channel=eFootball",
+    "idJuego" : 52
+  }, {
+    "nombre" : "Tony Hawk",
+    "categoria" : "DEPORTES",
+    "precio" : 530.0,
+    "valoracion" : 5.0,
+    "cantValoraciones" : 0,
+    "activo" : true,
+    "rutaVideo" : "https://www.youtube.com/watch?v=6X3VHKxnHoI&ab_channel=IGN",
+    "idJuego" : 54
+  }, {
+    "nombre" : "WWE",
+    "categoria" : "DEPORTES",
+    "precio" : 943.0,
+    "valoracion" : 5.0,
+    "cantValoraciones" : 0,
+    "activo" : true,
+    "rutaVideo" : "https://www.youtube.com/watch_popup?v=4cuNm8acf64&ab_channel=PlayStationAustralia",
+    "idJuego" : 56
+  }, {
+    "nombre" : "PGA 2k23",
+    "categoria" : "DEPORTES",
+    "precio" : 745.0,
+    "valoracion" : 5.0,
+    "cantValoraciones" : 0,
+    "activo" : true,
+    "rutaVideo" : "https://www.youtube.com/watch?v=eqZuEjQnJlc&ab_channel=IGN",
+    "idJuego" : 58
+  }, {
+    "nombre" : "NBA 2k23",
+    "categoria" : "DEPORTES",
+    "precio" : 630.0,
+    "valoracion" : 5.0,
+    "cantValoraciones" : 0,
+    "activo" : true,
+    "rutaVideo" : "https://www.youtube.com/watch_popup?v=88PyS2yZdsM&ab_channel=PlayStationEspa%C3%B1a",
+    "idJuego" : 60
+  }, {
+    "nombre" : "NBA JAM",
+    "categoria" : "DEPORTES",
+    "precio" : 739.0,
+    "valoracion" : 5.0,
+    "cantValoraciones" : 0,
+    "activo" : true,
+    "rutaVideo" : "https://www.youtube.com/watch_popup?v=1WMA8iKthq4&ab_channel=EAItalia",
+    "idJuego" : 62
+  }, {
+    "nombre" : "MLB the show",
+    "categoria" : "DEPORTES",
+    "precio" : 493.0,
+    "valoracion" : 5.0,
+    "cantValoraciones" : 0,
+    "activo" : true,
+    "rutaVideo" : "https://www.youtube.com/watch?v=CxzeQDG2rB4&ab_channel=PlayStationLatinoam%C3%A9rica",
+    "idJuego" : 64
+  }, {
+    "nombre" : "Riders republic",
+    "categoria" : "DEPORTES",
+    "precio" : 945.0,
+    "valoracion" : 5.0,
+    "cantValoraciones" : 0,
+    "activo" : true,
+    "rutaVideo" : "https://www.youtube.com/watch?v=5-cK95kS6M0&ab_channel=UbisoftLatinoam%C3%A9rica",
+    "idJuego" : 66
+  }, {
+    "nombre" : "Flight simulator",
+    "categoria" : "SIMULACION",
+    "precio" : 444.0,
+    "valoracion" : 5.0,
+    "cantValoraciones" : 0,
+    "activo" : true,
+    "rutaVideo" : "https://www.youtube.com/watch?v=p3xp-SnZDoY&ab_channel=Xbox",
+    "idJuego" : 68
+  }, {
+    "nombre" : "Cityes skylines",
+    "categoria" : "SIMULACION",
+    "precio" : 587.0,
+    "valoracion" : 5.0,
+    "cantValoraciones" : 0,
+    "activo" : true,
+    "rutaVideo" : "https://www.youtube.com/watch?v=eC-gjyvUvGQ&ab_channel=IGN",
+    "idJuego" : 70
+  }, {
+    "nombre" : "the sims",
+    "categoria" : "SIMULACION",
+    "precio" : 600.0,
+    "valoracion" : 5.0,
+    "cantValoraciones" : 0,
+    "activo" : true,
+    "rutaVideo" : "https://www.youtube.com/watch?v=FCkO6mHGw1M&ab_channel=PlayStationLatinoam%C3%A9rica",
+    "idJuego" : 72
+  }, {
+    "nombre" : "American truck",
+    "categoria" : "SIMULACION",
+    "precio" : 877.0,
+    "valoracion" : 5.0,
+    "cantValoraciones" : 0,
+    "activo" : true,
+    "rutaVideo" : "https://www.youtube.com/watch?v=cMSEm-dbTCQ&ab_channel=SCSSoftware",
+    "idJuego" : 74
+  }, {
+    "nombre" : "World of tanks",
+    "categoria" : "SIMULACION",
+    "precio" : 433.0,
+    "valoracion" : 5.0,
+    "cantValoraciones" : 0,
+    "activo" : true,
+    "rutaVideo" : "https://www.youtube.com/watch?v=qlerTfS55O8&ab_channel=Chaospaul387",
+    "idJuego" : 76
+  }, {
+    "nombre" : "Game dev tycoon",
+    "categoria" : "SIMULACION",
+    "precio" : 333.0,
+    "valoracion" : 5.0,
+    "cantValoraciones" : 0,
+    "activo" : true,
+    "rutaVideo" : "https://www.youtube.com/watch?v=30TAUWN6Aj0&ab_channel=GameDevTycoon",
+    "idJuego" : 79
+  }, {
+    "nombre" : "goat simulator",
+    "categoria" : "SIMULACION",
+    "precio" : 453.0,
+    "valoracion" : 5.0,
+    "cantValoraciones" : 0,
+    "activo" : true,
+    "rutaVideo" : "https://www.youtube.com/watch?v=ZYbINugWKHA&ab_channel=PlayStation",
+    "idJuego" : 81
+  }, {
+    "nombre" : "F1 2023",
+    "categoria" : "SIMULACION",
+    "precio" : 865.0,
+    "valoracion" : 5.0,
+    "cantValoraciones" : 0,
+    "activo" : true,
+    "rutaVideo" : "https://www.youtube.com/watch_popup?v=wHNgoRCWqTg&ab_channel=EASPORTSF1",
+    "idJuego" : 83
+  }, {
+    "nombre" : "Dirt Rally",
+    "categoria" : "SIMULACION",
+    "precio" : 555.0,
+    "valoracion" : 5.0,
+    "cantValoraciones" : 0,
+    "activo" : true,
+    "rutaVideo" : "https://www.youtube.com/watch?v=E79ofEtVlBg&ab_channel=GameSpot",
+    "idJuego" : 85
+  }, {
+    "nombre" : "Gran turismo",
+    "categoria" : "SIMULACION",
+    "precio" : 945.0,
+    "valoracion" : 5.0,
+    "cantValoraciones" : 0,
+    "activo" : true,
+    "rutaVideo" : "https://www.youtube.com/watch?v=1tBUsXIkG1A&ab_channel=PlayStation",
+    "idJuego" : 87
+  }, {
+    "nombre" : "StarCraft",
+    "categoria" : "ESTRATEGIA",
+    "precio" : 320.0,
+    "valoracion" : 5.0,
+    "cantValoraciones" : 0,
+    "activo" : true,
+    "rutaVideo" : "https://www.youtube.com/watch?v=MVbeoSPqRs4&ab_channel=StarCraft",
+    "idJuego" : 89
+  }, {
+    "nombre" : "Dota 2",
+    "categoria" : "ESTRATEGIA",
+    "precio" : 433.0,
+    "valoracion" : 5.0,
+    "cantValoraciones" : 0,
+    "activo" : true,
+    "rutaVideo" : "https://www.youtube.com/watch?v=-cSFPIwMEq4&ab_channel=dota2",
+    "idJuego" : 91
+  }, {
+    "nombre" : "League of Legends",
+    "categoria" : "ESTRATEGIA",
+    "precio" : 444.0,
+    "valoracion" : 5.0,
+    "cantValoraciones" : 0,
+    "activo" : true,
+    "rutaVideo" : "https://www.youtube.com/watch?v=mDYqT0_9VR4&ab_channel=LeagueofLegends",
+    "idJuego" : 94
+  }, {
+    "nombre" : "Smite",
+    "categoria" : "ESTRATEGIA",
+    "precio" : 843.0,
+    "valoracion" : 5.0,
+    "cantValoraciones" : 0,
+    "activo" : true,
+    "rutaVideo" : "https://www.youtube.com/watch?v=khsjzariacQ&ab_channel=GameSpot",
+    "idJuego" : 96
+  }, {
+    "nombre" : "Rome total war",
+    "categoria" : "ESTRATEGIA",
+    "precio" : 482.0,
+    "valoracion" : 5.0,
+    "cantValoraciones" : 0,
+    "activo" : true,
+    "rutaVideo" : "https://www.youtube.com/watch?v=i5v6hPr6L7U&ab_channel=GameNews",
+    "idJuego" : 98
+  }, {
+    "nombre" : "Doom",
+    "categoria" : "ACCION",
+    "precio" : 400.0,
+    "valoracion" : 2.3333333333333335,
+    "cantValoraciones" : 3,
+    "activo" : true,
+    "rutaVideo" : "https://www.youtube.com/watch_popup?v=RO90omga8D4&ab_channel=BethesdaSoftworks",
+    "idJuego" : 0
+  } ],
+  "usuariosPremium" : {
+    "42322678" : {
+      "nombre" : "mateo",
+      "apellido" : "mantovano",
+      "dni" : "42322678",
+      "mail" : "mantovanomateo@gmail.com",
+      "contrasena" : "Mateo2000",
+      "id" : 1,
+      "activo" : true,
+      "saldo" : 225.0,
+      "nickName" : "mantovanoMateo16",
+      "comprados" : [ {
+        "nombre" : "Doom",
+        "categoria" : "ACCION",
+        "precio" : 400.0,
+        "valoracion" : 5.0,
+        "cantValoraciones" : 0,
+        "activo" : true,
+        "rutaVideo" : "https://www.youtube.com/watch_popup?v=RO90omga8D4&ab_channel=BethesdaSoftworks",
+        "idJuego" : 0
+      }, {
+        "nombre" : "Red Dead Redemption 2",
+        "categoria" : "ACCION",
+        "precio" : 475.0,
+        "valoracion" : 5.0,
+        "cantValoraciones" : 0,
+        "activo" : true,
+        "rutaVideo" : "https://www.youtube.com/watch_popup?v=eaW0tYpxyp0&t=3s&ab_channel=RockstarGames",
+        "idJuego" : 7
+      }, {
+        "nombre" : "Grand Theft Auto",
+        "categoria" : "ACCION",
+        "precio" : 500.0,
+        "valoracion" : 5.0,
+        "cantValoraciones" : 0,
+        "activo" : true,
+        "rutaVideo" : "https://www.youtube.com/watch_popup?v=QkkoHAzjnUs&ab_channel=RockstarGames",
+        "idJuego" : 4
+      } ],
+      "mensajes" : [ {
+        "nicknameReceptor" : "mantovanoMateo16",
+        "nicknameEmisor" : "carnessaliAgustin19",
+        "mensaje" : "Hola Mateo! soy agus esta re piola el steam",
+        "fecha" : "2023-06-20"
+      }, {
+        "nicknameReceptor" : "mantovanoMateo16",
+        "nicknameEmisor" : "raveraLeandro27",
+        "mensaje" : "Sale ese fifa mate?",
+        "fecha" : "2023-06-20"
+      }, {
+        "nicknameReceptor" : "mantovanoMateo16",
+        "nicknameEmisor" : "amoresFacundo23",
+        "mensaje" : "Hola hola hoolaaa ya tenemos todos usuario!",
+        "fecha" : "2023-06-20"
+      } ],
+      "extractoDeCuenta" : [ {
+        "fecha" : "2023-06-18",
+        "tipo" : "INGRESO",
+        "magnitud" : 600.0
+      }, {
+        "fecha" : "2023-06-19",
+        "tipo" : "SALIDA",
+        "magnitud" : 400.0
+      }, {
+        "fecha" : "2023-06-19",
+        "tipo" : "SALIDA",
+        "magnitud" : 400.0
+      }, {
+        "fecha" : "2023-06-19",
+        "tipo" : "INGRESO",
+        "magnitud" : 1000.0
+      }, {
+        "fecha" : "2023-06-19",
+        "tipo" : "SALIDA",
+        "magnitud" : 475.0
+      }, {
+        "fecha" : "2023-06-20",
+        "tipo" : "SALIDA",
+        "magnitud" : 500.0
+      } ],
+      "vencimientoDeSuscripcion" : "2023-06-20",
+      "valorados" : [ 0 ]
+    }
+  },
+  "usersBasicos" : {
+    "42786543" : {
+      "nombre" : "Agustin",
+      "apellido" : "Carnessali",
+      "dni" : "42786543",
+      "mail" : "carneagus@gmail.com",
+      "contrasena" : "Agustin19",
+      "id" : 5,
+      "activo" : true,
+      "saldo" : 0.0,
+      "nickName" : "carnessaliAgustin19",
+      "comprados" : [ ],
+      "mensajes" : [ {
+        "nicknameReceptor" : "carnessaliAgustin19",
+        "nicknameEmisor" : "mantovanoMateo16",
+        "mensaje" : "Dale que la promocionamos viejo!",
+        "fecha" : "2023-06-20"
+      } ],
+      "extractoDeCuenta" : [ ]
+    },
+    "42777432" : {
+      "nombre" : "Facundo",
+      "apellido" : "Amores",
+      "dni" : "42777432",
+      "mail" : "facundoAmores@gmail.com",
+      "contrasena" : "Facundo23",
+      "id" : 7,
+      "activo" : true,
+      "saldo" : 0.0,
+      "nickName" : "amoresFacundo23",
+      "comprados" : [ ],
+      "mensajes" : [ ],
+      "extractoDeCuenta" : [ ]
+    },
+    "12345678" : {
+      "nombre" : "prueba",
+      "apellido" : "probado",
+      "dni" : "12345678",
+      "mail" : "prueba@gmail.com",
+      "contrasena" : "Prueba1234",
+      "id" : 8,
+      "activo" : false,
+      "saldo" : 0.0,
+      "nickName" : "Prueba1234",
+      "comprados" : [ ],
+      "mensajes" : [ ],
+      "extractoDeCuenta" : [ ]
+    },
+    "39763521" : {
+      "nombre" : "Leandro",
+      "apellido" : "Ravera",
+      "dni" : "39763521",
+      "mail" : "raveraleandro@gmail.com",
+      "contrasena" : "Leandro27",
+      "id" : 6,
+      "activo" : true,
+      "saldo" : 0.0,
+      "nickName" : "raveraLeandro27",
+      "comprados" : [ ],
+      "mensajes" : [ ],
+      "extractoDeCuenta" : [ ]
+    }
+  },
+  "usuariosAdmins" : [ {
+    "nombre" : "Pepe",
+    "apellido" : "Grillo",
+    "dni" : "20344678",
+    "mail" : "pepegrillo@gmail.com",
+    "contrasena" : "12345678a",
+    "id" : 0,
+    "activo" : true
+  }, {
+    "nombre" : "Mateo",
+    "apellido" : "Mantovano",
+    "dni" : "42322678",
+    "mail" : "mantovanomateo@gmail.com",
+    "contrasena" : "Mateo2000",
+    "id" : 6,
+    "activo" : false
+  } ],
+  "pedidos" : [ {
+    "idPedido" : 0,
+    "juegos" : [ {
+      "nombre" : "Doom",
+      "categoria" : "ACCION",
+      "precio" : 400.0,
+      "valoracion" : 5.0,
+      "cantValoraciones" : 0,
+      "activo" : true,
+      "rutaVideo" : "https://www.youtube.com/watch_popup?v=RO90omga8D4&ab_channel=BethesdaSoftworks",
+      "idJuego" : 0
+    } ],
+    "valorTotal" : 400.0,
+    "cliente" : {
+      "nombre" : "mateo",
+      "apellido" : "mantovano",
+      "dni" : "42322678",
+      "mail" : "mantovanomateo@gmail.com",
+      "contrasena" : "Mateo2000",
+      "id" : 1,
+      "activo" : true,
+      "saldo" : 200.0,
+      "nickName" : "mantovanoMateo16",
+      "comprados" : [ {
+        "nombre" : "Doom",
+        "categoria" : "ACCION",
+        "precio" : 400.0,
+        "valoracion" : 5.0,
+        "cantValoraciones" : 0,
+        "activo" : true,
+        "rutaVideo" : "https://www.youtube.com/watch_popup?v=RO90omga8D4&ab_channel=BethesdaSoftworks",
+        "idJuego" : 0
+      } ],
+      "mensajes" : [ ],
+      "extractoDeCuenta" : [ {
+        "fecha" : "2023-06-18",
+        "tipo" : "INGRESO",
+        "magnitud" : 600.0
+      }, {
+        "fecha" : "2023-06-19",
+        "tipo" : "SALIDA",
+        "magnitud" : 400.0
+      }, {
+        "fecha" : "2023-06-19",
+        "tipo" : "SALIDA",
+        "magnitud" : 400.0
+      } ]
+    }
+  }, {
+    "idPedido" : 2,
+    "juegos" : [ {
+      "nombre" : "Red Dead Redemption 2",
+      "categoria" : "ACCION",
+      "precio" : 475.0,
+      "valoracion" : 5.0,
+      "cantValoraciones" : 0,
+      "activo" : true,
+      "rutaVideo" : "https://www.youtube.com/watch_popup?v=eaW0tYpxyp0&t=3s&ab_channel=RockstarGames",
+      "idJuego" : 7
+    } ],
+    "valorTotal" : 475.0,
+    "cliente" : {
+      "nombre" : "mateo",
+      "apellido" : "mantovano",
+      "dni" : "42322678",
+      "mail" : "mantovanomateo@gmail.com",
+      "contrasena" : "Mateo2000",
+      "id" : 1,
+      "activo" : true,
+      "saldo" : 725.0,
+      "nickName" : "mantovanoMateo16",
+      "comprados" : [ {
+        "nombre" : "Doom",
+        "categoria" : "ACCION",
+        "precio" : 400.0,
+        "valoracion" : 5.0,
+        "cantValoraciones" : 0,
+        "activo" : true,
+        "rutaVideo" : "https://www.youtube.com/watch_popup?v=RO90omga8D4&ab_channel=BethesdaSoftworks",
+        "idJuego" : 0
+      }, {
+        "nombre" : "Red Dead Redemption 2",
+        "categoria" : "ACCION",
+        "precio" : 475.0,
+        "valoracion" : 5.0,
+        "cantValoraciones" : 0,
+        "activo" : true,
+        "rutaVideo" : "https://www.youtube.com/watch_popup?v=eaW0tYpxyp0&t=3s&ab_channel=RockstarGames",
+        "idJuego" : 7
+      } ],
+      "mensajes" : [ ],
+      "extractoDeCuenta" : [ {
+        "fecha" : "2023-06-18",
+        "tipo" : "INGRESO",
+        "magnitud" : 600.0
+      }, {
+        "fecha" : "2023-06-19",
+        "tipo" : "SALIDA",
+        "magnitud" : 400.0
+      }, {
+        "fecha" : "2023-06-19",
+        "tipo" : "SALIDA",
+        "magnitud" : 400.0
+      }, {
+        "fecha" : "2023-06-19",
+        "tipo" : "INGRESO",
+        "magnitud" : 1000.0
+      }, {
+        "fecha" : "2023-06-19",
+        "tipo" : "SALIDA",
+        "magnitud" : 475.0
+      } ]
+    }
+  }, {
+    "idPedido" : 2,
+    "juegos" : [ {
+      "nombre" : "Grand Theft Auto",
+      "categoria" : "ACCION",
+      "precio" : 500.0,
+      "valoracion" : 5.0,
+      "cantValoraciones" : 0,
+      "activo" : true,
+      "rutaVideo" : "https://www.youtube.com/watch_popup?v=QkkoHAzjnUs&ab_channel=RockstarGames",
+      "idJuego" : 4
+    } ],
+    "valorTotal" : 500.0,
+    "cliente" : {
+      "nombre" : "mateo",
+      "apellido" : "mantovano",
+      "dni" : "42322678",
+      "mail" : "mantovanomateo@gmail.com",
+      "contrasena" : "Mateo2000",
+      "id" : 1,
+      "activo" : true,
+      "saldo" : 225.0,
+      "nickName" : "mantovanoMateo16",
+      "comprados" : [ {
+        "nombre" : "Doom",
+        "categoria" : "ACCION",
+        "precio" : 400.0,
+        "valoracion" : 5.0,
+        "cantValoraciones" : 0,
+        "activo" : true,
+        "rutaVideo" : "https://www.youtube.com/watch_popup?v=RO90omga8D4&ab_channel=BethesdaSoftworks",
+        "idJuego" : 0
+      }, {
+        "nombre" : "Red Dead Redemption 2",
+        "categoria" : "ACCION",
+        "precio" : 475.0,
+        "valoracion" : 5.0,
+        "cantValoraciones" : 0,
+        "activo" : true,
+        "rutaVideo" : "https://www.youtube.com/watch_popup?v=eaW0tYpxyp0&t=3s&ab_channel=RockstarGames",
+        "idJuego" : 7
+      }, {
+        "nombre" : "Grand Theft Auto",
+        "categoria" : "ACCION",
+        "precio" : 500.0,
+        "valoracion" : 5.0,
+        "cantValoraciones" : 0,
+        "activo" : true,
+        "rutaVideo" : "https://www.youtube.com/watch_popup?v=QkkoHAzjnUs&ab_channel=RockstarGames",
+        "idJuego" : 4
+      } ],
+      "mensajes" : [ {
+        "nicknameReceptor" : "mantovanoMateo16",
+        "nicknameEmisor" : "carnessaliAgustin19",
+        "mensaje" : "Hola Mateo! soy agus esta re piola el steam",
+        "fecha" : "2023-06-20"
+      }, {
+        "nicknameReceptor" : "mantovanoMateo16",
+        "nicknameEmisor" : "raveraLeandro27",
+        "mensaje" : "Sale ese fifa mate?",
+        "fecha" : "2023-06-20"
+      }, {
+        "nicknameReceptor" : "mantovanoMateo16",
+        "nicknameEmisor" : "amoresFacundo23",
+        "mensaje" : "Hola hola hoolaaa ya tenemos todos usuario!",
+        "fecha" : "2023-06-20"
+      } ],
+      "extractoDeCuenta" : [ {
+        "fecha" : "2023-06-18",
+        "tipo" : "INGRESO",
+        "magnitud" : 600.0
+      }, {
+        "fecha" : "2023-06-19",
+        "tipo" : "SALIDA",
+        "magnitud" : 400.0
+      }, {
+        "fecha" : "2023-06-19",
+        "tipo" : "SALIDA",
+        "magnitud" : 400.0
+      }, {
+        "fecha" : "2023-06-19",
+        "tipo" : "INGRESO",
+        "magnitud" : 1000.0
+      }, {
+        "fecha" : "2023-06-19",
+        "tipo" : "SALIDA",
+        "magnitud" : 475.0
+      }, {
+        "fecha" : "2023-06-20",
+        "tipo" : "SALIDA",
+        "magnitud" : 500.0
+      } ],
+      "vencimientoDeSuscripcion" : "2023-06-20",
+      "valorados" : [ 0 ]
+    }
+  } ]
+}
