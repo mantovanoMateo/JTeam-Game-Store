@@ -1,0 +1,10 @@
+user premium:
+mantovanoMateo16 Clave: Mateo2000
+amoresFacundo23 Clave: Facundo23
+
+User basico:
+raveraLeandro27 Clave: Leandro27
+carnessaliAgustin19 Clave: Agustin19
+
+User Admin:
+Pepe Clave: 12345678a
