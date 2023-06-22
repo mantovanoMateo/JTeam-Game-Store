@@ -245,7 +245,6 @@ public class vistaListarUsers extends javax.swing.JPanel {
         DefaultTableModel datos=(DefaultTableModel)jTable1.getModel();
         datos.setNumRows(0);
         for(UserBasico cliente: clientes){
-            System.out.println(cliente.getActivo());
                 Object [] fila = {cliente.getId(),cliente.getNombre(),cliente.getApellido(),cliente.getDni(),cliente.getNickName(),cliente.getMail(),cliente.getActivo()};
                 datos.addRow(fila);  
         }

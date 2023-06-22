@@ -3,8 +3,8 @@
     "nombre" : "Grand Theft Auto",
     "categoria" : "ACCION",
     "precio" : 500.0,
-    "valoracion" : 5.0,
-    "cantValoraciones" : 0,
+    "valoracion" : 9.0,
+    "cantValoraciones" : 1,
     "activo" : true,
     "rutaVideo" : "https://www.youtube.com/watch_popup?v=QkkoHAzjnUs&ab_channel=RockstarGames",
     "idJuego" : 4
@@ -594,7 +594,7 @@
       "contrasena" : "Mateo2000",
       "id" : 1,
       "activo" : true,
-      "saldo" : 225.0,
+      "saldo" : 5860.0,
       "nickName" : "mantovanoMateo16",
       "comprados" : [ {
         "nombre" : "Doom",
@@ -623,6 +623,15 @@
         "activo" : true,
         "rutaVideo" : "https://www.youtube.com/watch_popup?v=QkkoHAzjnUs&ab_channel=RockstarGames",
         "idJuego" : 4
+      }, {
+        "nombre" : "Dbz Budokai tenkaichi 3",
+        "categoria" : "ACCION",
+        "precio" : 365.0,
+        "valoracion" : 5.0,
+        "cantValoraciones" : 0,
+        "activo" : true,
+        "rutaVideo" : "https://www.youtube.com/watch_popup?v=55KGua5iW0E&ab_channel=ShikasClouds",
+        "idJuego" : 45
       } ],
       "mensajes" : [ {
         "nicknameReceptor" : "mantovanoMateo16",
@@ -664,9 +673,59 @@
         "fecha" : "2023-06-20",
         "tipo" : "SALIDA",
         "magnitud" : 500.0
+      }, {
+        "fecha" : "2023-06-21",
+        "tipo" : "SALIDA",
+        "magnitud" : 365.0
+      }, {
+        "fecha" : "2023-06-21",
+        "tipo" : "INGRESO",
+        "magnitud" : 1000.0
+      }, {
+        "fecha" : "2023-06-21",
+        "tipo" : "INGRESO",
+        "magnitud" : 10000.0
       } ],
-      "vencimientoDeSuscripcion" : "2023-06-20",
-      "valorados" : [ 0 ]
+      "vencimientoDeSuscripcion" : "2023-07-20",
+      "valorados" : [ 0, 4 ]
+    },
+    "42777432" : {
+      "nombre" : "Facundo",
+      "apellido" : "Amores",
+      "dni" : "42777432",
+      "mail" : "facundoAmores@gmail.com",
+      "contrasena" : "Facundo23",
+      "id" : 7,
+      "activo" : true,
+      "saldo" : -100.0,
+      "nickName" : "amoresFacundo23",
+      "comprados" : [ {
+        "nombre" : "God of War",
+        "categoria" : "AVENTURA",
+        "precio" : 700.0,
+        "valoracion" : 5.0,
+        "cantValoraciones" : 0,
+        "activo" : true,
+        "rutaVideo" : "https://www.youtube.com/watch_popup?v=vtFhDrMIZjE&ab_channel=PlayStationLatinoam%C3%A9rica",
+        "idJuego" : 47
+      } ],
+      "mensajes" : [ {
+        "nicknameReceptor" : "amoresFacundo23",
+        "nicknameEmisor" : "mantovanoMateo16",
+        "mensaje" : "Estamos mostrando el tp",
+        "fecha" : "2023-06-21"
+      } ],
+      "extractoDeCuenta" : [ {
+        "fecha" : "2023-06-21",
+        "tipo" : "INGRESO",
+        "magnitud" : 600.0
+      }, {
+        "fecha" : "2023-06-21",
+        "tipo" : "SALIDA",
+        "magnitud" : 700.0
+      } ],
+      "vencimientoDeSuscripcion" : "2023-07-21",
+      "valorados" : [ ]
     }
   },
   "usersBasicos" : {
@@ -689,16 +748,16 @@
       } ],
       "extractoDeCuenta" : [ ]
     },
-    "42777432" : {
-      "nombre" : "Facundo",
-      "apellido" : "Amores",
-      "dni" : "42777432",
-      "mail" : "facundoAmores@gmail.com",
-      "contrasena" : "Facundo23",
-      "id" : 7,
+    "403444654" : {
+      "nombre" : "Leo",
+      "apellido" : "Chiesa",
+      "dni" : "403444654",
+      "mail" : "chiessaleo@gmail.com",
+      "contrasena" : "chiesaLeo00",
+      "id" : 15,
       "activo" : true,
       "saldo" : 0.0,
-      "nickName" : "amoresFacundo23",
+      "nickName" : "chiessaLeo00",
       "comprados" : [ ],
       "mensajes" : [ ],
       "extractoDeCuenta" : [ ]
@@ -752,210 +811,30 @@
   "pedidos" : [ {
     "idPedido" : 0,
     "juegos" : [ {
-      "nombre" : "Doom",
+      "nombre" : "Dbz Budokai tenkaichi 3",
       "categoria" : "ACCION",
-      "precio" : 400.0,
+      "precio" : 365.0,
       "valoracion" : 5.0,
       "cantValoraciones" : 0,
       "activo" : true,
-      "rutaVideo" : "https://www.youtube.com/watch_popup?v=RO90omga8D4&ab_channel=BethesdaSoftworks",
-      "idJuego" : 0
+      "rutaVideo" : "https://www.youtube.com/watch_popup?v=55KGua5iW0E&ab_channel=ShikasClouds",
+      "idJuego" : 45
     } ],
-    "valorTotal" : 400.0,
-    "cliente" : {
-      "nombre" : "mateo",
-      "apellido" : "mantovano",
-      "dni" : "42322678",
-      "mail" : "mantovanomateo@gmail.com",
-      "contrasena" : "Mateo2000",
-      "id" : 1,
-      "activo" : true,
-      "saldo" : 200.0,
-      "nickName" : "mantovanoMateo16",
-      "comprados" : [ {
-        "nombre" : "Doom",
-        "categoria" : "ACCION",
-        "precio" : 400.0,
-        "valoracion" : 5.0,
-        "cantValoraciones" : 0,
-        "activo" : true,
-        "rutaVideo" : "https://www.youtube.com/watch_popup?v=RO90omga8D4&ab_channel=BethesdaSoftworks",
-        "idJuego" : 0
-      } ],
-      "mensajes" : [ ],
-      "extractoDeCuenta" : [ {
-        "fecha" : "2023-06-18",
-        "tipo" : "INGRESO",
-        "magnitud" : 600.0
-      }, {
-        "fecha" : "2023-06-19",
-        "tipo" : "SALIDA",
-        "magnitud" : 400.0
-      }, {
-        "fecha" : "2023-06-19",
-        "tipo" : "SALIDA",
-        "magnitud" : 400.0
-      } ]
-    }
+    "valorTotal" : 365.0,
+    "cliente" : 1
   }, {
     "idPedido" : 2,
     "juegos" : [ {
-      "nombre" : "Red Dead Redemption 2",
-      "categoria" : "ACCION",
-      "precio" : 475.0,
+      "nombre" : "God of War",
+      "categoria" : "AVENTURA",
+      "precio" : 700.0,
       "valoracion" : 5.0,
       "cantValoraciones" : 0,
       "activo" : true,
-      "rutaVideo" : "https://www.youtube.com/watch_popup?v=eaW0tYpxyp0&t=3s&ab_channel=RockstarGames",
-      "idJuego" : 7
+      "rutaVideo" : "https://www.youtube.com/watch_popup?v=vtFhDrMIZjE&ab_channel=PlayStationLatinoam%C3%A9rica",
+      "idJuego" : 47
     } ],
-    "valorTotal" : 475.0,
-    "cliente" : {
-      "nombre" : "mateo",
-      "apellido" : "mantovano",
-      "dni" : "42322678",
-      "mail" : "mantovanomateo@gmail.com",
-      "contrasena" : "Mateo2000",
-      "id" : 1,
-      "activo" : true,
-      "saldo" : 725.0,
-      "nickName" : "mantovanoMateo16",
-      "comprados" : [ {
-        "nombre" : "Doom",
-        "categoria" : "ACCION",
-        "precio" : 400.0,
-        "valoracion" : 5.0,
-        "cantValoraciones" : 0,
-        "activo" : true,
-        "rutaVideo" : "https://www.youtube.com/watch_popup?v=RO90omga8D4&ab_channel=BethesdaSoftworks",
-        "idJuego" : 0
-      }, {
-        "nombre" : "Red Dead Redemption 2",
-        "categoria" : "ACCION",
-        "precio" : 475.0,
-        "valoracion" : 5.0,
-        "cantValoraciones" : 0,
-        "activo" : true,
-        "rutaVideo" : "https://www.youtube.com/watch_popup?v=eaW0tYpxyp0&t=3s&ab_channel=RockstarGames",
-        "idJuego" : 7
-      } ],
-      "mensajes" : [ ],
-      "extractoDeCuenta" : [ {
-        "fecha" : "2023-06-18",
-        "tipo" : "INGRESO",
-        "magnitud" : 600.0
-      }, {
-        "fecha" : "2023-06-19",
-        "tipo" : "SALIDA",
-        "magnitud" : 400.0
-      }, {
-        "fecha" : "2023-06-19",
-        "tipo" : "SALIDA",
-        "magnitud" : 400.0
-      }, {
-        "fecha" : "2023-06-19",
-        "tipo" : "INGRESO",
-        "magnitud" : 1000.0
-      }, {
-        "fecha" : "2023-06-19",
-        "tipo" : "SALIDA",
-        "magnitud" : 475.0
-      } ]
-    }
-  }, {
-    "idPedido" : 2,
-    "juegos" : [ {
-      "nombre" : "Grand Theft Auto",
-      "categoria" : "ACCION",
-      "precio" : 500.0,
-      "valoracion" : 5.0,
-      "cantValoraciones" : 0,
-      "activo" : true,
-      "rutaVideo" : "https://www.youtube.com/watch_popup?v=QkkoHAzjnUs&ab_channel=RockstarGames",
-      "idJuego" : 4
-    } ],
-    "valorTotal" : 500.0,
-    "cliente" : {
-      "nombre" : "mateo",
-      "apellido" : "mantovano",
-      "dni" : "42322678",
-      "mail" : "mantovanomateo@gmail.com",
-      "contrasena" : "Mateo2000",
-      "id" : 1,
-      "activo" : true,
-      "saldo" : 225.0,
-      "nickName" : "mantovanoMateo16",
-      "comprados" : [ {
-        "nombre" : "Doom",
-        "categoria" : "ACCION",
-        "precio" : 400.0,
-        "valoracion" : 5.0,
-        "cantValoraciones" : 0,
-        "activo" : true,
-        "rutaVideo" : "https://www.youtube.com/watch_popup?v=RO90omga8D4&ab_channel=BethesdaSoftworks",
-        "idJuego" : 0
-      }, {
-        "nombre" : "Red Dead Redemption 2",
-        "categoria" : "ACCION",
-        "precio" : 475.0,
-        "valoracion" : 5.0,
-        "cantValoraciones" : 0,
-        "activo" : true,
-        "rutaVideo" : "https://www.youtube.com/watch_popup?v=eaW0tYpxyp0&t=3s&ab_channel=RockstarGames",
-        "idJuego" : 7
-      }, {
-        "nombre" : "Grand Theft Auto",
-        "categoria" : "ACCION",
-        "precio" : 500.0,
-        "valoracion" : 5.0,
-        "cantValoraciones" : 0,
-        "activo" : true,
-        "rutaVideo" : "https://www.youtube.com/watch_popup?v=QkkoHAzjnUs&ab_channel=RockstarGames",
-        "idJuego" : 4
-      } ],
-      "mensajes" : [ {
-        "nicknameReceptor" : "mantovanoMateo16",
-        "nicknameEmisor" : "carnessaliAgustin19",
-        "mensaje" : "Hola Mateo! soy agus esta re piola el steam",
-        "fecha" : "2023-06-20"
-      }, {
-        "nicknameReceptor" : "mantovanoMateo16",
-        "nicknameEmisor" : "raveraLeandro27",
-        "mensaje" : "Sale ese fifa mate?",
-        "fecha" : "2023-06-20"
-      }, {
-        "nicknameReceptor" : "mantovanoMateo16",
-        "nicknameEmisor" : "amoresFacundo23",
-        "mensaje" : "Hola hola hoolaaa ya tenemos todos usuario!",
-        "fecha" : "2023-06-20"
-      } ],
-      "extractoDeCuenta" : [ {
-        "fecha" : "2023-06-18",
-        "tipo" : "INGRESO",
-        "magnitud" : 600.0
-      }, {
-        "fecha" : "2023-06-19",
-        "tipo" : "SALIDA",
-        "magnitud" : 400.0
-      }, {
-        "fecha" : "2023-06-19",
-        "tipo" : "SALIDA",
-        "magnitud" : 400.0
-      }, {
-        "fecha" : "2023-06-19",
-        "tipo" : "INGRESO",
-        "magnitud" : 1000.0
-      }, {
-        "fecha" : "2023-06-19",
-        "tipo" : "SALIDA",
-        "magnitud" : 475.0
-      }, {
-        "fecha" : "2023-06-20",
-        "tipo" : "SALIDA",
-        "magnitud" : 500.0
-      } ],
-      "vencimientoDeSuscripcion" : "2023-06-20",
-      "valorados" : [ 0 ]
-    }
+    "valorTotal" : 700.0,
+    "cliente" : 7
   } ]
 }

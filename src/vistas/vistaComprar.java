@@ -598,7 +598,7 @@ public class vistaComprar extends javax.swing.JPanel {
 
     private void botonComprarMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_botonComprarMouseClicked
         // TODO add your handling code here:
-        this.pedido.setCliente(this.cliente);
+        this.pedido.setCliente(this.cliente.getId());
         steam.agregarPedido(pedido);
         cliente.agregarMovimientoEconomico(new MovimientoEconomico(tipoDeMovimiento.SALIDA,pedido.getValorTotal()));
         cliente.comprar(pedido);

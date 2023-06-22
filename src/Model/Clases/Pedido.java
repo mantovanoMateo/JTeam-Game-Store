@@ -8,7 +8,7 @@ public class Pedido {
     private Integer idPedido;
     private ArrayList<Juego> juegos;
     private Double valorTotal;
-    private Cliente cliente;
+    private Integer IdCLiente;
 
 
     public Pedido() {
@@ -16,12 +16,13 @@ public class Pedido {
         id++;
         this.juegos=new ArrayList<>();
         this.valorTotal=0.0;
+        this.IdCLiente=0;
     }
 
-    public Pedido(Integer idPedido, Double valorTotal,Cliente cliente) {
+    public Pedido(Integer idPedido, Double valorTotal,Integer cliente) {
         this.idPedido = idPedido;
         this.juegos=new ArrayList<>();
-        this.cliente=cliente;
+        this.IdCLiente=cliente;
         this.valorTotal = valorTotal;
     }
 
@@ -41,8 +42,8 @@ public class Pedido {
         return juegos;
     }
 
-    public Usuario getCliente() {
-        return cliente;
+    public Integer getCliente() {
+        return IdCLiente;
     }
 
     public static void setId(int id) {
@@ -61,8 +62,8 @@ public class Pedido {
         this.juegos = juegos;
     }
 
-    public void setCliente(Cliente cliente) {
-        this.cliente = cliente;
+    public void setCliente(Integer cliente) {
+        this.IdCLiente = cliente;
     }
 
     @Override

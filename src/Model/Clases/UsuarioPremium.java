@@ -37,6 +37,7 @@ public class UsuarioPremium extends Cliente implements Serializable, Comportamie
         this.vencimientoDeSuscripcion = fecha.toString();
     }
 
+
     public ArrayList<Integer> getValorados() {
         return valorados;
     }
